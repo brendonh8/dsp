@@ -47,7 +47,15 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+Command | Action
+--- | ---
+`ls` | short list of files in current directory
+`ls -a` | list including hidden files
+`ls -l` | long list of files
+`ls -lh` | long list with human readable file sizes
+`ls -lah` | long list with human readable sizes and hidden files
+`ls -t` | list sorted by mod date
+`ls -Glp` | long list with highlighted directory names with closed root
 
 ---
 
