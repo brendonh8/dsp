@@ -73,10 +73,10 @@ What does `xargs` do? Give an example of how to use it.
 
 > > xargs allows you to create an execution pipeline using tools like echo, rm, and mkdir. These wouldnt be able to accept standard input without xargs
 
-xargs reads the items separated by blanks and executes a command for each. Ex:
+> > xargs reads the items separated by blanks and executes a command for each. Ex:
 
-creating multiple folders:
-echo 'one two three' | xargs mkdir
+> > creating multiple folders:
+> > echo 'one two three' | xargs mkdir
 
  
 
