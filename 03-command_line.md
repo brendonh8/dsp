@@ -63,7 +63,7 @@ Command | Action
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls -1 makes things easy to see, ls -R is useful for a full overview, ls -d is useful to only see directories, ls -m might be useful to iterate over files, ls -xm would make iterations easier
 
 ---
 
