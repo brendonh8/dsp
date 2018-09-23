@@ -11,3 +11,11 @@ pmf = thinkstats2.Pmf(t)
 thinkplot.Pmf(pmf, linewidth=0.1)
 thinkplot.Config(xlabel='Random variate', ylabel='PMF')
 ```
+This PMF looks like a bunch of random bars all at .001 probability. This makes sense sinse np.random.random uses a uniform set of floats, which means every value has the same probability. 
+
+```python
+cdf = thinkstats2.Cdf(t)
+thinkplot.Cdf(cdf)
+thinkplot.Config(xlabel='Random variate', ylabel='CDF')
+```
+The CDF of the uniform data is linear. Since each value has the same probability, the percentage of data within some point is going to increase linearly.
