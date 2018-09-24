@@ -68,3 +68,8 @@ def ScatterPlot(ages, weights, alpha=1.0, s=20):
 ScatterPlot(ages, weights, alpha=0.05, s=10)
 ```
 
+1) The scatterplot shows a weak relationship between the variables but it is hard to see clearly.
+
+2) The correlations support this.  Pearson's is around 0.07, Spearman's is around 0.09.  The difference between them suggests some influence of outliers or a non-linear relationsip.
+
+3) Plotting percentiles of weight versus age suggests that the relationship is non-linear.  Birth weight increases more quickly in the range of mother's age from 15 to 25.  After that, the effect is weaker.
