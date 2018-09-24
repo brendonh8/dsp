@@ -86,14 +86,44 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Variables: 
+* B: twin boys
+* I: identical twin
+* F: fraternal twin
+
+P(I) = 1/300
+P(F) = 1/125
+
+Find the probability that Elvis was an identical twin given he had a brother: P(I|B)
+
+Bayes: P(I|B)= (P(I)P(B|I))/P(B)
+
+Probability of both boys P(B) = Prob that both identicals and fraternals are boys P(I)P(B|I)+P(F)P(B|F)
+
+P(B|I) = 1/2. Even chance of boy and girl but given that the twins are identical if one is a boy the other has to be as well
+P(B|F) = 1/2 * 1/2 = 1/4. Fraternal twins can be a boy and girl. So the prob one is a boy is 1/2 and the prob the other is a boy is 1/2 as well.
+
+So P(I|B) = ((1/300)(1/2))/((1/2)(1/300)+(1/4)(1/125)) = 5/11
+
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> When using bayes forumula, if the prior probabilities on a hypothesis are not known, you must use statistical inference. This is done either by using a prior (Bayesian), or with the likelihood (Frequentist).
+
+Bayesian:
+* Probabilities
+* Requires that you construct a prior
+* Uses probabilities for hypothesis and data
+* Depends on the prior and likelihood of the data
+
+Frequentist:
+* p-values
+* Does not use a prior
+* Doesn't give the probability of a hypthesis
+* Depends on the likelihood P(D | H)) for both observed and unobserved data.
 
 ---
 
