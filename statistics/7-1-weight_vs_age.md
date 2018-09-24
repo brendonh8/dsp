@@ -67,6 +67,10 @@ def ScatterPlot(ages, weights, alpha=1.0, s=20):
     
 ScatterPlot(ages, weights, alpha=0.05, s=10)
 ```
+![percentile](plots/7_1percentiles.png)
+
+![scatter](plots/7_1scatter.png)
+
 
 1) The scatterplot shows a weak relationship between the variables but it is hard to see clearly.
 
